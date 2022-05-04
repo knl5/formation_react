@@ -30,11 +30,11 @@ class App extends Component {
         })
     }
 
-    catchAll(allInfos){
+    catchAll(infos){
 
         const newPokemon = 
         {
-            ...allInfos, trainedId : Date.now()
+            ...infos, trainedId : Date.now()
         }
 
         if (this.state.bag){
