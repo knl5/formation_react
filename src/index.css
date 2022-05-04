@@ -21,6 +21,11 @@ code {
   flex-wrap: wrap;
 }
 
+.active {
+  color: white;
+  background-color: black;
+}
+
 .Pokemon,
 .TrainedPokemon {
   flex: 0 0 7rem;
